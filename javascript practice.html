@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="jsStyle.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+     <h1>JavaScript Projects</h1>
+  </header>
+    <article>
+      <div id="project_1">
+        <h1>Project 1: Currency conversion</h2>
+          <p>converting  <span class="Nig"> Nigeria </span>Naira to <span class="US">United State</span> Dollar</p>
+        <div class="currency">
+            <div>
+              <input type="text" id="currency1">
+              <button class="naira" onclick="dollarToNaira()"> Dollar to Naira </button>              
+            </div>
+            <div>
+                <button class="dollar" onclick="nairaToDollar()">Naira to Dollar</button>
+            </div>
+        </div>
+        <button onclick="reset()">Reset</button>
+        <div id="currency">
+          <p id="yourTotalAmount"></p>   
+        </div>
+        <P class="note">Note: Black-market usually have an increse between 20 to 40%</P>
+      </div>
+    </article>
+
+
+    <!-- ======project 2 -->
+    <article>
+      <div id="project_2">
+        <div class="project_head">
+          <h1>Project 2:Random Color Picker </h1>
+          <p>Choosing Random Color</p>
+          <div class="buttons" id="buttons">
+            <button  class="btn green" value="green"></button>
+            <button class="btn yellow" value="yellow"></button>
+            <button class="btn gold" value="gold"></button>
+            <button class="btn red" value="red"></button>
+            <button class="btn blue" value="blue"></button>
+          </div>
+        </div>
+        <p id="color"></p>
+      <button class="resetcolor" onclick="resetBgcolor()">Reset Baground-Color</button>
+    </div>
+    </article>
+
+
+    <!-- ======project 3 =======-->
+    <article>
+      <div id="project_3">
+        <div>
+          <h1>PROJECT 3</h1>
+          <h2>Know the Amonth of days in your birth month</h2>
+        </div>
+          <label for="birthMonth">Select your birth month</label>
+          <select  id="birthMonth" onchange="getbirthmonth()">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+          </select>
+          <button id="btn-birthMonth" onclick>GET</button>
+        <div>
+          <p id="yourBirthMonthIs"></p>
+        </div>
+        <div>
+          <h2>Bonus</h2>
+          <h2>Know the Average Salary of your Educational Qualification</h2>
+          <div>
+            <select  id="eduQualification" onchange="showSalary()">
+              <option value="no high school diploma">No high school diploma</option>
+              <option value="high school diploma">High school diploma</option>
+              <option value="Associate's degree">Associate's degree</option>
+              <option value="Bachelor's degree">Bachelor's degree</option>
+              <option value="Master's degree">Master's degree</option>
+              <option value="Professional degree">Professional degree</option>
+              <option value="Doctoral degree">Doctoral degree</option>
+            </select>
+            <button id="yourSalary is" >Get Salary</button>
+            <div>
+              <p id="salary"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </article>
+      <article>
+        <div class="project4">
+          <p>Your Mini Calculator</p>
+          </div>
+          <div class="calculator">
+            <input id="n1" type="text">
+          
+              <select  id="operate">
+                  <option value="+">+</option>
+                  <option value="-">-</option>
+                  <option value="/">/</option>
+                  <option value="*">*</option>
+              </select> <br><br>
+          
+            <input type="text" id="n2">
+          
+              <button id="calc" onclick="calculate();">=</button>
+            
+            <input type="text" id='answer'>
+          </div>
+      </article>
+      <article>
+          <h1>project 4</h1>
+        <div>'
+          <h1>Score and your Prize</h1>
+          <p>click your score to get a price</p>
+        </div>
+        <div>
+          <select  id="list" onchange="getSelectedValue();">
+            <option value="1">Good</option>
+            <option value="2">very Good</option>
+            <option value="3">Excelent</option>
+            <option value="4">Exeptional</option>
+          </select>
+        </div> 
+        <div id="myPrize"></div>
+      </article>
+      <article>
+        <h1>project 5</h1>
+        <h2>Play to Win</h2>
+        <button onclick="generateNumber()">Click to win</button>
+        <p id="RandomNumber"></p>
+      </article>
+
+
+
+<script src="javascript practice.js"></script>
+</body>
+</html>
