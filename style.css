@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+header{
+    text-align: center;
+    color: gold;
+    padding: 20px;
+}
+p{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+article{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px red solid;
+    text-transform: uppercase;
+    padding: 10px;
+}
+/* ------------project_1---------- */
+#project_1{
+  background-color:azure;
+}
+#rate{
+  color:blue;
+}
+.Nig{
+    color: green;
+}
+.US{
+    color: red;
+}
+.note{
+    color: red;
+    font-size: smaller;
+}
+
+.currency{
+    display: flex;
+    justify-content: center;
+}
+.currency button{
+    color: green;
+    background-color: azure;
+    padding: 5px 10px;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: larger;
+}
+.currency div{
+    display: flex;
+    justify-items: center;
+}
+input{
+    font-size: 20px;
+    border: 0.5px black solid;
+    padding: 10px;
+}
+.curbtn{
+  display: inline-block;
+}
+#Naira{
+    color: green;
+    border: 1px red solid;
+  }
+@media (max-width: 786px) {
+  article{
+    width: 90%;
+  }
+  .currency{
+    flex-direction: column;
+  }
+  .currency input{
+    width: 80%;
+    margin: auto;
+  }
+  .curbtn{
+    margin: auto;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 10px;
+  }
+}
+
+/* ------------project_2---------- */
+#project_2{
+  padding: 10px;
+}
+#project_2 button{
+  width: 150px;
+  height: 50px;
+}     .green{
+        background-color: green;
+      }
+      .yellow{
+        background-color: yellow;
+      }
+      .gold{
+        background-color: gold;
+      }
+      .red{
+        background-color: red;
+      }
+      .blue{
+        background-color: blue;
+      }
+      .resetcolor{
+        background-color: whitesmoke;
+      }
+select{
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+/* ------------project_3---------- */
+#project_3{
+  background-color: rgb(223, 243, 236);
+  padding: 10px;
+}
+#project_3 div{
+  margin: 10px;
+}
+#project_3{
+  padding: 10px;
+  color: green;
+  font-size: 15px;
+  font-weight: 200;
+}
+#birthMonth option{
+  color: blue;
+}
+#yourBirthMonthIs, #salary{
+  color: brown;
+}
+
+
+
+
+
+/* others */
+  #material{
+    color: blue;
+  }
+
+#wordGame{
+  color: brown;
+}
+#newWord{
+  color: yellow;
+}
+
+
+/* ------------project_4---------- */
+.project4{
+  padding: 10px;
+  font-weight: bolder;
+}
+.calculator{
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px white solid;
+  box-shadow: 3px 1px 5px 5px wheat, 3px 1px 5px 5px wheat;
+}
+.calculator .box{
+  display: flex;
+  justify-content: center;
+}
+.calculator input{
+  padding: 5px;
+  margin: 10px;
+  width:90% ;
+}
+.calculator button{
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 20px;
+}
+.calculator button:hover{
+  background-color: aquamarine;
+}
+.calculator button:active{
+  background-color: grey;
+}
+.ansbtn{
+  width: 110px;
+  padding: 10px;
+}
+@media (max-width: 768px) {
+  .calculator{
+    flex-direction: column;
+  }
+  .calculator input{
+    padding: 5px;
+    width: 100px;
+  }
+  #answer{
+    width: 60%;
+  }
+
+}
+
+/* project 5 */
+.bunus{
+  margin: 30px;
+}
+.Randomnumber{
+  color: blue;
+}
+.rdnbtn{
+  padding: 10px 20px;
+  margin: 5px;
+  color: brown;
+  font-size: 20px;
+}
